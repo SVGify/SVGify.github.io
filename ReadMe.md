@@ -17,7 +17,7 @@ Visit the [releases page](https://github.com/SVGify/SVGify.github.io/releases/) 
 
 ## How It Works
 
-SVGify accepts JPG and PNG formats, optimally converting simpler graphics. Complex images can also be converted.
+SVGify accepts JPG and PNG formats, optimally converting simpler graphics. You can use the intuitive sliders and advanced settings for fine-tuning the SVG output as an image or SVG code.
 
 ## Read More
 
