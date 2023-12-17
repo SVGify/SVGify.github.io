@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro';
+import Features from '../components/Features.astro';
+import Examples from '../components/Examples.astro';
+import Footer from '../components/Footer.astro';
+import FAQ from '../components/FAQ.astro';
+---
+
+<BaseLayout title="SVGify">
+	<Navbar />
+
+	<Hero />
+
+	<div id="features-jump" class="divider w-full md:w-4/12 mt-20 mb-10 md:my-32 mx-auto font-extrabold text-2xl md:text-4xl">
+		Features <i class="fa-solid fa-wand-magic-sparkles"></i>
+	</div>
+
+	<Features />
+
+	<div id="examples-jump" class="divider w-full md:w-4/12 mt-20 mb-10 md:mt-32 mx-auto font-extrabold text-2xl md:text-4xl">
+		Examples <i class="fa-solid fa-magnifying-glass"></i>
+	</div>
+
+	<div class="p-1 exampleIntro w-11/12 md:w-1/2 mx-auto mb-20">
+		<p class="text-center">
+			Explore the transformative power of SVGify with these side-by-side comparisons. Slide the divider to witness the stunning clarity that SVG conversion can bring to your images.
+		</p>
+	</div>
+
+	<Examples />
+
+	<div id="faq-jump" class="divider w-full md:w-4/12 mt-20 mb-20 md:mt-32 mx-auto font-extrabold text-2xl md:text-4xl">
+		FAQ
+		<i class="fa-solid fa-circle-question"></i>
+	</div>
+
+	<FAQ />
+
+	<Footer />
+</BaseLayout>
