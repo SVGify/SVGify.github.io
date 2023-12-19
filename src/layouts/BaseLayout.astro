@@ -35,5 +35,15 @@ const { title } = Astro.props;
 		<script is:inline>
 			new WOW().init();
 		</script>
+		<script is:inline>
+			document.querySelectorAll('.buyNowButton').forEach((button) => {
+				button.addEventListener('click', () => {
+					gtag('event', 'click', {
+						event_category: 'Buy Now Button',
+						event_label: 'Buy Now Click'
+					});
+				});
+			});
+		</script>
 	</body>
 </html>
