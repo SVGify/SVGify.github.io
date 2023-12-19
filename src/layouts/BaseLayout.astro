@@ -44,6 +44,13 @@ const { title } = Astro.props;
 					});
 				});
 			});
+
+			document.querySelector('#downloadButton').addEventListener('click', () => {
+				gtag('event', 'click', {
+					event_category: 'Download Button',
+					event_label: 'Download Click'
+				});
+			});
 		</script>
 	</body>
 </html>
