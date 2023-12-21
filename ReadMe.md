@@ -21,6 +21,6 @@ SVGify accepts JPG and PNG formats, optimally converting simpler graphics. You c
 
 ## Read More
 
-For more information, visit the [SVGify Website](https://svgify.github.io/).
+For more information, visit the [SVGify Website](https://svgify.cyris.io/).
 
 Developed by [@Sudo_Overflow](http://x.com/sudo_overflow)
